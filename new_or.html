@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+  <html>
+
+    <head>
+      <meta charset="UTF-8">
+      <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+      <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+      <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+      <title>Início</title>
+      <link rel="stylesheet" href="./public/photon-0.1.2-dist/css/photon.min.css">
+      <link rel="stylesheet" href="./public/css/style.css">
+    </head>
+
+    <body>
+      <div class="window">
+
+        <!-- Início Barra de Navegação -->
+        <header class="toolbar toolbar-header">
+          <div class="toolbar-actions">
+            
+            <span> 
+              <span class="icon icon-basket"></span>
+              <span class="htitle">
+                Programa de Orçamentos
+              </span>
+            </span>
+            
+
+
+            <!-- Início Botões de Janela -->
+            <div class="btn-group pull-right">
+              <button class="btn btn-default">
+                <span class="icon icon-minus-squared"></span>
+              </button>
+              <button class="btn btn-default">
+                <span class="icon icon-plus-squared"></span>
+              </button>
+              <button class="btn btn-default">
+                <span class="icon icon-cancel-squared"></span>
+              </button>
+            </div>
+            <!-- Fim Botões de Janela -->
+
+          </div>
+        </header>
+        <!-- Fim Barra de Navegação -->
+
+        <!-- Início Janela de Conteúdo -->
+        <div class="window-content">
+
+          <!-- Início Grupo de Painéis -->
+          <div class="pane-group">
+
+            <!-- Início Painel Lateral -->
+            <div class="pane pane-sm sidebar">
+              <nav class="nav-group">
+                <h5 class="nav-group-title">Menu</h5>
+
+                <span class="nav-group-item">
+                  <span class="icon icon-home"></span>
+                  <a href="index.html">Início</a>
+                </span>
+
+                <span class="nav-group-item here">
+                  <span class="icon icon-popup">
+                  </span>
+                  <a href="#">Novo Orçamento</a>
+                </span>
+
+                <span class="nav-group-item">
+                  <span class="icon icon-download"></span>
+                  <a href="or.html">Orçamentos</a>
+                </span>
+
+                <span class="nav-group-item">
+                  <span class="icon icon-window"></span>
+                  <a href="prod.html">Produtos</a>
+                </span>
+
+                <span class="nav-group-item">
+                  <span class="icon icon-folder"></span>
+                  <a href="arq.html">Arquivo</a>
+                </span>
+
+              </nav>
+            </div>
+            <!-- Fim Painel Lateral -->
+
+            <!-- Início Painel de Conteúdo Principal  -->
+            <div class="pane">
+
+              <h1>Novo Orçamento</h1>
+
+            </div>
+            <!-- Fim Painel de Conteúdo Principal  -->
+
+          </div>
+          <!-- Fim Grupo de Painéis -->
+
+          <!-- Início Rodapé -->
+          <footer class="toolbar toolbar-footer" id="rodape">
+            <h1 class="title">Desenvolvido por Lucas Oliveira</h1>
+          </footer>
+          <!-- Fim Rodapé -->
+
+        </div> <!-- window -->
+
+        <!-- You can also require other files to run in this process -->
+        <script src="./renderer.js"></script>
+
+    </body>
+
+  </html>
